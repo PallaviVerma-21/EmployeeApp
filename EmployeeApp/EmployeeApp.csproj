@@ -43,7 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="BusinessLogic\EmployeeInfoHandler.cs" />
+    <Compile Include="DataModel\AuditDetails.cs" />
+    <Compile Include="DataModel\EmploymentType.cs" />
+    <Compile Include="DataModel\PersonalDetail.cs" />
+    <Compile Include="DataModel\ProfessionalDetails.cs" />
+    <Compile Include="EntryPoint.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

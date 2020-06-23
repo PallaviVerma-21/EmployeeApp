@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EmployeeApp
+namespace EmployeeApp.DataModel
 {
-    class Program
+    public enum EmploymentType
     {
-        static void Main(string[] args)
-        {
-        }
+        FullTime,
+        PartTime,
+        Contractual,
+        Other
     }
 }
